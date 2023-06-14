@@ -12,8 +12,8 @@
 					information
 					you
 					require. However, if you send the message now, our team will contact you right away</p>
-				<form name="contact" method="POST" netlify data-netlify="true" data-netlify-honeypot="bot-field">
-					<input type="hidden" name="form-name" value="Contact" />
+				<form name="contact" method="POST" netlify data-netlify-honeypot="bot-field" hidden>
+					<p><input type="hidden" name="form-name" value="Contact" /></p>
 					<input type="text" name="name" placeholder="Name" />
 					<input type="email" name="email" placeholder="Email" />
 					<textarea name="message" placeholder="Message"></textarea>
